@@ -4,4 +4,5 @@ def divide(first, second):
     except ZeroDivisionError:
         print('Error!')
     else:
+
         print(f'{first} / {second} =', result)
